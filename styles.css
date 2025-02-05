@@ -76,3 +76,42 @@ button {
 .whatsapp-link i {
     margin-top: 16px;
 }
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+    .foto-perfil {
+        width: 120px;
+        height: 120px;
+    }
+    input, textarea {
+        width: 100%;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-size: 1rem;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+.img-projetos {
+    width: 100%;
+    height: auto;
+}
